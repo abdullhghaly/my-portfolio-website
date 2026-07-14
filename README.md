@@ -31,8 +31,8 @@ This project showcases my skills, projects, and career objectives as a final-yea
 
 ## 📂 Project Structure
 
-````text
-```portfolio/
+```text
+portfolio/
 ├── assets
 │ ├── cv.docx
 │ └── icons
@@ -48,11 +48,6 @@ This project showcases my skills, projects, and career objectives as a final-yea
 ├── LICENSE
 ├── README.md
 └── style.css
-`
-````
-
-```
-
 ```
 
 ---
@@ -65,3 +60,4 @@ This project showcases my skills, projects, and career objectives as a final-yea
    cd my-portfolio-website
    python3 -m http.server 8080
    ```
+````
