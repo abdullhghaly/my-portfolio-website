@@ -33,18 +33,19 @@ This project showcases my skills, projects, and career objectives as a final-yea
 
 portfolio/
 ├── assets
-│   ├── cv.docx
-│   └── icons
-│   ├── apple-touch-icon.png
-│   ├── favicon-96x96.png
-│   ├── favicon.ico
-│   ├── favicon.svg
-│   ├── favicon.zip
-│   ├── site.webmanifest
-│   ├── web-app-manifest-192x192.png
-│   └── web-app-manifest-512x512.png
+│ ├── cv.docx
+│ └── icons
+│ ├── apple-touch-icon.png
+│ ├── favicon-96x96.png
+│ ├── favicon.ico
+│ ├── favicon.svg
+│ ├── favicon.zip
+│ ├── site.webmanifest
+│ ├── web-app-manifest-192x192.png
+│ └── web-app-manifest-512x512.png
 ├── index.html
 ├── LICENSE
+├── README.md
 └── style.css
 
 ---
