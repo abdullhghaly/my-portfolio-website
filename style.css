@@ -1,0 +1,166 @@
+/* Global sleek terminal look */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: "JetBrainsMono", "Courier New", monospace;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Header bar */
+header {
+  background-color: #1e1e1e;
+  padding: 2rem;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+  color: #e0e0e0;
+}
+
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1rem;
+  color: #9cdcfe;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: #9cdcfe;
+  text-decoration: none;
+  margin: 0 0.8rem;
+}
+
+nav a:hover {
+  color: #e0e0e0;
+}
+
+/* Section container with split layout */
+section {
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+/* Two-column grid for skills & projects */
+#skills, #projects {
+  display: grid;
+  gap: 2rem;
+}
+
+#skills h2, #projects h2 {
+  grid-column: 1 / -1; /* span both columns */
+  color: #9cdcfe;
+  margin-bottom: 1rem;
+}
+
+/* Skills list */
+.skills {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills li::before {
+  content: "> ";
+  color: #9cdcfe;
+}
+
+.skills li {
+  margin: 0.3rem 0;
+}
+
+/* Project cards */
+.project {
+  background-color: #181818;
+  padding: 1rem;
+  border: 1px dashed #444;
+}
+
+/* About & Contact sections centered */
+#about, #contact {
+  text-align: center;
+}
+
+#about h2, #contact h2 {
+  color: #9cdcfe;
+}
+
+#contact a {
+  color: #9cdcfe;       /* accent cyan */
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+  color: #e0e0e0;       /* soft gray on hover */
+}
+
+/* Career Objective section */
+#CareerObjective {
+  background-color: #181818;
+  border-left: 3px solid #9cdcfe;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+#CareerObjective h2 {
+  color: #9cdcfe;
+  margin-bottom: 1rem;
+}
+
+/* Education section */
+#Education {
+  background-color: #181818;
+  border-left: 3px solid #ce9178; /* orange accent */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+#Education h3 {
+  color: #ce9178;
+  margin-bottom: 1rem;
+}
+
+/* Strengths section */
+#Strengths {
+  background-color: #181818;
+  border-left: 3px solid #4ec9b0; /* teal accent */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 900px;
+}
+
+#Strengths h3 {
+  color: #4ec9b0;
+  margin-bottom: 1rem;
+}
+
+#Strengths ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#Strengths li::before {
+  content: " ✔ ";
+  color: #4ec9b0;
+}
+
+
+/* Footer */
+footer {
+  background-color: #1e1e1e;
+  color: #666;
+  text-align: center;
+  padding: 1rem;
+  border-top: 1px solid #444;
+}
+
+
