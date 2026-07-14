@@ -32,23 +32,21 @@ This project showcases my skills, projects, and career objectives as a final-yea
 ## 📂 Project Structure
 
 portfolio/
-(0tqq (B assets
-(0x (B (0tqq (B cv.docx
-(0x (B (0mqq (B icons
-(0x (B (0tqq (B apple-touch-icon.png
-(0x (B (0tqq (B favicon-96x96.png
-(0x (B (0tqq (B favicon.ico
-(0x (B (0tqq (B favicon.svg
-(0x (B (0tqq (B favicon.zip
-(0x (B (0tqq (B site.webmanifest
-(0x (B (0tqq (B web-app-manifest-192x192.png
-(0x (B (0mqq (B web-app-manifest-512x512.png
-(0tqq (B index.html
-(0tqq (B LICENSE
-(0tqq (B README.md
-(0mqq (B style.css
-
-3 directories, 13 files
+├── assets
+│ ├── cv.docx
+│ └── icons
+│ ├── apple-touch-icon.png
+│ ├── favicon-96x96.png
+│ ├── favicon.ico
+│ ├── favicon.svg
+│ ├── favicon.zip
+│ ├── site.webmanifest
+│ ├── web-app-manifest-192x192.png
+│ └── web-app-manifest-512x512.png
+├── index.html
+├── LICENSE
+├── README.md
+└── style.css
 
 ---
 
