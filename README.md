@@ -31,7 +31,8 @@ This project showcases my skills, projects, and career objectives as a final-yea
 
 ## 📂 Project Structure
 
-portfolio/
+````text
+```portfolio/
 ├── assets
 │ ├── cv.docx
 │ └── icons
@@ -47,6 +48,12 @@ portfolio/
 ├── LICENSE
 ├── README.md
 └── style.css
+`
+````
+
+```
+
+```
 
 ---
 
